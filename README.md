@@ -8,7 +8,7 @@ In addition, you can customize any in-game message based on player events. For e
 
 NEW: The Aggressive Join detection keeps you informed if a NON-VIP player got kicked to make room for a VIP on full server. If the kicked player rejoins, the Plugin sends him a customized message.
 
-#
+[![empty](img/xy_empty.png)]()
 # Installation
 **IMPORTANT**: This Plugin requires a MySQL database with INNODB support.
 
@@ -26,8 +26,7 @@ NEW: The Aggressive Join detection keeps you informed if a NON-VIP player got ki
 
 After the first start the Plugin will connect to the MySQL database to automatically create the tables for the Plugin. After the table is created, it will sync all VIP players from the Gameserver to the MySQL database. All the imported VIP players will get a valid VIP Slot for 30 days by the default settings **'Import NEW VIPS from Gameserver to SQL' = yes (30 days first Plugin installation only)**. This means that all your VIPs will stay within the SQL database and on your Gameserver! This setting will be changed after the first Sync/Import is completed successfully.
 
-
-#
+[![empty](img/xy_empty.png)]()
 # Website (highly recommended)
 
 The easiest way to manage reserved VIP Slots is a website with access to the MySQL database. In this way you can manage a single Gameserver or many Gameservers with different VIP players. It gives you full control. You can add, edit and remove VIP players via the website. After a few minutes, the Plugin on each Gameserver receives the updated information automatically and will do the rest.
@@ -35,7 +34,7 @@ The easiest way to manage reserved VIP Slots is a website with access to the MyS
 It is highly recommended to use a website for administrative purposes! You can find a free website template for this purpose within the downloaded ZIP file from this Plugin. It requires a webspace with PHP support and access to the SQL database.
 
 
-#
+[![empty](img/xy_empty.png)]()
 # Sync Settings
 
 All VIP informations are stored within the SQL database, in addition to the VIP Slot remaining time for each VIP player. The Plugin updates the Gameserver with the valid VIP Slots. Expired VIP Slots will be removed automatically.
@@ -67,7 +66,7 @@ This feature is important for the first Plugin start and the first Sync to the S
 For a quick one time Sync you can use the **'Force Sync SQL and Gameserver NOW'** function in the settings. The proconrulz.ini file will also be updated (if this feature is enabled).
 
 
-#
+[![empty](img/xy_empty.png)]()
 # Notify & In-Game Messages
 You can enable, disable and customize every single in-game message based on chat and player events. OnJoin, OnSpawn and OnChat are trigger events.
 
@@ -87,7 +86,7 @@ REPLACEMENT STRING | EFFEKT
 !VIPs online: %online%/%total%
 
 
-#
+[![empty](img/xy_empty.png)]()
 # In-Game VIP Commands
 
 These commands are for valid VIP Slot players only. Each command can be enabled or disabled separately.
@@ -99,7 +98,7 @@ IN-GAME VIP CMD | EFFEKT
 **!switchme** | switch between teams
 
 
-#
+[![empty](img/xy_empty.png)]()
 # In-Game Admin Commands
 
 These commands are for in-game admins only. Admins need the privilege **'Can Edit Reserved Slots List'**. You can enable or disable this function in the setting **'Enable In-Game Admin Commands'**.
@@ -115,7 +114,7 @@ IN-GAME ADMIN CMD | SAMPLE | EFFECT
 **!changevip [old playername] [new playername]** | !changevip SniperBen SniperBenni | This cmd will change the VIP Slot playername 
 
 
-#
+[![empty](img/xy_empty.png)]()
 # Other Plugin Support
 
 Other Plugins such as ProconRulz/InsaneLimits can use special commands to remove or add a VIP Slot for a custom time period. Other Plugins can send commands as a 'hidden say' within the in-game chat. Other players will not see this in-game message, but the Plugin receives this information. In the Procon PC Tool you can enter the commands to (say, all players). You can enable or disable this function in the setting 'Enable Commands for other Plugins'.
@@ -133,7 +132,7 @@ On Kill; Damage Melee; if %c% == 5; Say /vsm-addvip %p% +7
 ```
 
 
-#
+[![empty](img/xy_empty.png)]()
 # Advanced ProconRulz Support
 The VIP Slot Manager Plugin can store a list of valid VIPs in the proconrulz.ini file. This file stays on your Procon Layer Server (path: CONFIGS/proconrulz_<ip>_<port>.ini). When you read this file within the Plugin ProconRulz (%ini_vipslotmanager_<playername>%) you will get the VIP timestamp in seconds. This means you can check the VIP status without any player protection for weapon rule punishment (kill, kick, ban). You can enable or disable this function within the setting **'On Round End write VIPs in proconrulz.ini file'**.
 
@@ -147,7 +146,7 @@ On Say; Text !check; if %ini_vipslotmanager_%p%% != 0; Say Yes, you are a VIP
 On Say; Text !check; if %ini_vipslotmanager_%p%% == 0; Say No, you are NOT a VIP
 ```
 
-#
+[![empty](img/xy_empty.png)]()
 # Aggressive Join for VIPs
 The 'Aggressive Join' is a server setting that allows VIPs to join a full server without waiting. A random NON-VIP player will be kicked to make room for a VIP.
 
@@ -156,7 +155,7 @@ The Plugin can detect this kind of kick and keeps you informed if a NON-VIP play
 In addition, the Plugin can disable the 'Aggressive Join' close on round end to keep as many players as possible on the server. On the next round it will be enabled automatically. This feature works for the following game modes: ConquestLarge, ConquestSmall, TDM and Chainlink. You can enable or disable this function in the setting **'Temporary disable the Aggressive Join close on round end'**.
 
 
-#
+[![empty](img/xy_empty.png)]()
 # Advanced Settings
 
 ### Debug Level
@@ -176,7 +175,7 @@ This feature reduces the Sync traffic between SQL and Gameserver. It is necessar
 If a VIP changes his playername then his VIP Slot will be updated to the new playername automatically. After a VIP joins the server, the Plugin links his playername to his EA GUID. If he joins again with a new/changed playername then his VIP Slot will be updated to the new playername for all **Server Groups** on current Gameserver Type in SQL database (e.g. for all BF4 Groups 1-99). After the VIP Slot has expired the EA GUID will be unlinked. You can enable or disable the tracking function in the setting **'EA GUID Tracking'**.
 
 
-#
+[![empty](img/xy_empty.png)]()
 # How to add, edit and remove VIPs
 
 ### Website (highly recommended)
@@ -191,7 +190,7 @@ In the Plugin settings you can use the **'Mini Manager - Print VIP list'** to di
 You can also use the commands from the 'Other Plugin Support' function to add and remove VIP Slots. You can enter the commands in the Procon PC Tool chat as a hidden admin say (e.g. /vsm-addvip SniperBen +7). Nobody will see the commands within the in-game chat.
 
 
-#
+[![empty](img/xy_empty.png)]()
 # FAQ
 
 ### Do I need a new MySQL database?
@@ -213,7 +212,7 @@ With the website you can clean up the database to remove all old VIPs with the s
 The Plugin works fine for BF3, BF4, BFH and BFBC2. The support for other Games are still not tested.
 
 
-#
+[![empty](img/xy_empty.png)]()
 # Changelog
 ### 1.0.0.5 (26.01.2018)
 - Add: VIP EA Guid Tracking to update playername changes automatically (optional)
