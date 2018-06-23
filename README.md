@@ -14,7 +14,7 @@ NEW: The Aggressive Join detection keeps you informed if a NON-VIP player got ki
 ![img](img/empty.png)
 
 # Download
-### Download the Plugin and website template: [HERE (zip file)](VIP_Slot_Manager_Plugin_1.0.0.6.zip)
+### Download the Plugin and website template: [HERE (zip file)](VIP-Slot-Manager-Plugin-1.0.0.6.zip)
 Plugin Version: 1.0.0.6 - Development by maxdralle
 
 ![img](img/empty.png)
@@ -304,5 +304,5 @@ https://github.com/procon-plugin/vip-slot-manager/issues?state=open
 ![img](img/empty.png)
 
 # Download
-### Download the Plugin and website template: [HERE (zip file)](VIP_Slot_Manager_Plugin_1.0.0.6.zip)
+### Download the Plugin and website template: [HERE (zip file)](VIP-Slot-Manager-Plugin-1.0.0.6.zip)
 Plugin Version: 1.0.0.6 - Development by maxdralle
