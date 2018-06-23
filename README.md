@@ -1,6 +1,7 @@
 Battlefield Procon Plugin:
 # VIP Slot Manager 1.0.0.5  [BF3,  BF4,  BFH,  BC2]
-This FREE Plugin gives you full control over reserved VIP Slots, with many customizations and features. It includes a time management control for each VIP player. This means you can add VIP players for a custom time period, whether it be 30 days, or longer. Expired VIP Slots will be disabled automatically.
+<img align="right" width="420" height="540" src="img/vip-slot-manager-plugin-procon.gif">
+This FREE Plugin gives you full control over reserved VIP Slots, with many customizations and features. It includes a time management control for each VIP player. This means you can add VIP players for a custom time period, whether it be 30 days, or longer. Expired VIP Slots will be disabled automatically. It is also possible to manage multiple Gameservers with one global list of VIPs or alternatively each Gamerserver separately with his own list of VIPs.
 
 The Plugin supports a web-based interface to manage a single Gameserver or many Gameservers with different VIP players. This means you can add, edit and remove VIP Slots via the admin website. It is highly recommended to use a website for administrative purposes! 
 
