@@ -1,5 +1,5 @@
 Battlefield Procon Plugin:
-# VIP Slot Manager 1.0.0.5  [BF3,  BF4,  BFH,  BC2]
+# VIP Slot Manager 1.0.0.6  [BF3,  BF4,  BFH,  BC2]
 <img align="right" width="420" height="540" src="img/vip-slot-manager-plugin-battlefield-procon.gif">
 
 This FREE Plugin gives you full control over reserved VIP Slots, with many customizations and features. It includes a time management control for each VIP player. This means you can add VIP players for a custom time period, whether it be 30 days, or longer. Expired VIP Slots will be disabled automatically. It is also possible to manage multiple Gameservers with one global list of VIPs or alternatively each Gamerserver separately with his own list of VIPs.
@@ -38,7 +38,7 @@ After the first start the Plugin will connect to the MySQL database to automatic
 
 The easiest way to manage reserved VIP Slots is a website with access to the MySQL database. In this way you can manage a single Gameserver or many Gameservers with different VIP players. It gives you full control. You can add, edit and remove VIP players via the website. After a few minutes, the Plugin on each Gameserver receives the updated information automatically and will do the rest.
 
-It is highly recommended to use a website for administrative purposes! You can find a free website template for this purpose within the downloaded ZIP file from this Plugin. It requires a webspace with PHP support and access to the SQL database.
+It is highly recommended to use a website for administrative purposes! **You can find a free website template for this purpose within the downloaded ZIP file from this Plugin.** It requires a webspace with PHP support and access to the SQL database.
 
 
 
@@ -260,6 +260,7 @@ The Plugin works fine for BF3, BF4, BFH and BFBC2. The support for other Games a
 - Add: Aggressive Join Abuse Protection (optional)
 - Add: Command !addsemivip to add temporary VIP till round end / rejoin (optional)
 - Add: Advanced Log to Adkats (optional)
+- Add: Alternative Link to github
 
 ### 1.0.0.5 (26.01.2018)
 - Add: VIP EA Guid Tracking to update playername changes automatically (optional)
