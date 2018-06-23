@@ -254,6 +254,16 @@ The Plugin works fine for BF3, BF4, BFH and BFBC2. The support for other Games a
 
 ![img](img/empty.png)
 
+# Support / Feedback
+Updates and support will be handled through the official procon forum thread or here on github.
+
+https://forum.myrcon.com/showthread.php?17050-VIP-Slot-Manager
+
+https://github.com/procon-plugin/vip-slot-manager/issues?state=open
+
+
+![img](img/empty.png)
+
 # Changelog
 
 ### 1.0.0.6 (23.06.2018)
