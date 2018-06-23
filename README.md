@@ -11,6 +11,11 @@ In addition, you can customize any in-game message based on player events. For e
 NEW: The Aggressive Join detection keeps you informed if a NON-VIP player got kicked to make room for a VIP on full server. If the kicked player rejoins, the Plugin sends him a customized message.
 
 
+![img](img/empty.png)
+
+# Download
+### Download the Plugin and website template: [HERE (zip file)](VIP_Slot_Manager_Plugin_1.0.0.6.zip)
+Plugin Version: 1.0.0.6 - Development by maxdralle
 
 ![img](img/empty.png)
 
@@ -295,3 +300,9 @@ https://github.com/procon-plugin/vip-slot-manager/issues?state=open
 ### 1.0.0.1 (02.05.2017)
 - Fix: In-Game VIP Commands
 
+
+![img](img/empty.png)
+
+# Download
+### Download the Plugin and website template: [HERE (zip file)](VIP_Slot_Manager_Plugin_1.0.0.6.zip)
+Plugin Version: 1.0.0.6 - Development by maxdralle
