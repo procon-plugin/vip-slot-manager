@@ -43,7 +43,9 @@ After the first start the Plugin will connect to the MySQL database to automatic
 
 The easiest way to manage reserved VIP Slots is a website with access to the MySQL database. In this way you can manage a single Gameserver or many Gameservers with different VIP players. It gives you full control. You can add, edit and remove VIP players via the website. After a few minutes, the Plugin on each Gameserver receives the updated information automatically and will do the rest.
 
-It is highly recommended to use a website for administrative purposes! **You can find a free website template for this purpose within the downloaded ZIP file from this Plugin.** It requires a webspace with PHP support and access to the SQL database.
+It is highly recommended to use a website for administrative purposes! It requires a webspace with PHP support and access to the SQL database.
+
+**You can find a free website template for this purpose within the downloaded ZIP file from this Plugin.**
 
 
 
