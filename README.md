@@ -216,13 +216,13 @@ The Plugin works fine for BF3, BF4, BFH and BFBC2. The support for other Games a
 #
 # Changelog
 ### 1.0.0.5 (26.01.2018)
-- Add: VIP EA Guid Tracking to update playername changes automatically (optional)
-- Add: Command !changevip to change VIP Slot playername
-- Modification: In-Game VIP Command !lead (optional VIP protection)
-- Modification: Small code improvements
-- Fix: SQL Credentials after server restart
-- Fix: BC2 Procon compatibility
-- Fix: Website compatibility to php 5.6 / 7.0 / 7.1 / 7.2. New features and filters for better workflow
+**Add**: VIP EA Guid Tracking to update playername changes automatically (optional)
+**Add**: Command !changevip to change VIP Slot playername
+**Modification**: In-Game VIP Command !lead (optional VIP protection)
+**Modification**: Small code improvements
+**Fix**: SQL Credentials after server restart
+**Fix**: BC2 Procon compatibility
+**Fix**: Website compatibility to php 5.6 / 7.0 / 7.1 / 7.2. New features and filters for better workflow
 
 ### 1.0.0.4 (04.10.2017)
 - Add: Aggressive Join features
