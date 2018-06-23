@@ -128,7 +128,9 @@ CMD FOR OTHER PLUGINS | SAMPLE | EFFECT
 **vsm-changevip [old playername] [new playername]** | /vsm-changevip SniperBen SniperBenni | This cmd will change the VIP Slot playername 
 
 ### Sample Code for ProconRulz (perform 5 knife kills = VIP Slot for 7 days):
-```On Kill; Damage Melee; if %c% == 5; Say /vsm-addvip %p% +7```
+```
+On Kill; Damage Melee; if %c% == 5; Say /vsm-addvip %p% +7
+```
 
 
 #
